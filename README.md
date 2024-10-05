@@ -1,1 +1,34 @@
 # TrabCG2024
+
+**Nome**: Rodrigo Fuelber Franke
+
+O objetivo deste trabalho é desenvolver um leitor e visualizador de cenas tridimensionais aplicando os conceitos vistos em aula.  
+Ele utiliza o modelo de iluminação Phong para calcular reflexos ambientes, difusos e especulares em objetos carregados a partir de arquivos `.obj`.
+
+## Controles
+
+### Seleção de Objetos:
+- `1, 2, ... 9` – Seleciona um dos objetos carregados para aplicar transformações. 
+
+> O número corresponde à ordem na qual o objeto foi adicionado ao array, onde `1` seleciona o primeiro objeto carregado, `2` o segundo, e assim por diante.
+
+### Movimentação dos Objetos:
+- `Setas Esquerda/Direita` – Move o objeto selecionado ao longo do eixo X (esquerda/direita).
+- `Setas Cima/Baixo` – Move o objeto selecionado ao longo do eixo Y (cima/baixo).
+- `Page Up/Page Down` – Move o objeto selecionado ao longo do eixo Z (frente/trás).
+  
+> A movimentação só afeta o objeto atualmente selecionado, mantendo os outros objetos em suas posições.
+> A velocidade de movimentação é controlada por uma variável que pode ser ajustada para aumentar ou diminuir a velocidade de deslocamento (`objetoSpeed`).
+
+### Movimento da Câmera:
+- `W`, `A`, `S`, `D` – Movimenta a câmera para frente, esquerda, trás e direita, respectivamente.
+- `Espaço` – Sobe a câmera.
+- `Ctrl Esquerdo` – Desce a câmera.
+
+> A velocidade de movimentação da câmera é controlada por uma variável (`cameraSpeed`) que pode ser ajustada para aumentar ou diminuir a velocidade de movimentação.
+
+### Escala do Objeto:
+- `P` – Aumenta a escala do objeto.
+- `M` – Diminui a escala do objeto.
+
+> A variação na escala é controlada por uma variável (`escalaSize`), que pode ser ajustada para aumentar ou diminuir a quantidade de aumento ou redução da escala do objeto.
