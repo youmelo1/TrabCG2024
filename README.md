@@ -4,7 +4,7 @@
 
 O objetivo deste trabalho é desenvolver um leitor e visualizador de cenas tridimensionais aplicando os conceitos vistos em aula.  
 Ele utiliza o modelo de iluminação Phong para calcular reflexos ambientes, difusos e especulares em objetos carregados a partir de arquivos `.obj`.
-
+Código base fornecido por Rossana Baptista Queiroz ([https://github.com/fellowsheep/CG2024-2](https://github.com/fellowsheep/CG2024-2))
 ## Controles
 
 ### Seleção de Objetos:
