@@ -1,4 +1,4 @@
-# TrabCG2024
+# TrabGA-CG2024
 
 **Nome**: Rodrigo Fuelber Franke
 
@@ -8,9 +8,7 @@ Ele utiliza o modelo de iluminação Phong para calcular reflexos ambientes, dif
 ## Controles
 
 ### Seleção de Objetos:
-- `1, 2, ... 9` – Seleciona um dos objetos carregados para aplicar transformações. 
-
-> O número corresponde à ordem na qual o objeto foi adicionado ao array, onde `1` seleciona o primeiro objeto carregado, `2` o segundo, e assim por diante.
+- `1, 2, ... 9` – Seleciona um dos objetos carregados para aplicar transformações. O número corresponde à ordem na qual o objeto foi adicionado ao array, onde `1` seleciona o primeiro objeto carregado, `2` o segundo, e assim por diante.
 
 ### Movimentação dos Objetos:
 - `Setas Esquerda/Direita` – Move o objeto selecionado ao longo do eixo X (esquerda/direita).
@@ -32,3 +30,10 @@ Ele utiliza o modelo de iluminação Phong para calcular reflexos ambientes, dif
 - `M` – Diminui a escala do objeto.
 
 > A variação na escala é controlada por uma variável (`escalaSize`), que pode ser ajustada para aumentar ou diminuir a quantidade de aumento ou redução da escala do objeto.
+
+### Rotação dos Objetos:
+- `X`, `Y`, `Z` – Gira o objeto selecionado ao longo dos eixos X, Y ou Z.
+- `R` – Para a rotação do objeto.
+
+> Os objetos podem ser girados continuamente ao longo de qualquer dos eixos. A velocidade de rotação é controlada pelo tempo de execução (`glfwGetTime()`), e o eixo de rotação pode ser alterado pressionando as teclas correspondentes.
+
