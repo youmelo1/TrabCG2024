@@ -325,12 +325,12 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 	// Altera a escala do Objeto
 	float escalaSize = 0.1f;
 
-    if (key == GLFW_KEY_P && action == GLFW_PRESS) // Aumenta
+    if (key == GLFW_KEY_EQUAL && action == GLFW_PRESS) // Aumenta
     {
         objects[modelo - 1].escala += escalaSize;
     }
 
-    if (key == GLFW_KEY_M && action == GLFW_PRESS) // Diminui
+    if (key == GLFW_KEY_MINUS && action == GLFW_PRESS) // Diminui
     {
         objects[modelo - 1].escala = glm::max(objects[modelo - 1].escala - escalaSize, 0.1f);
     }
