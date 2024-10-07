@@ -28,8 +28,8 @@ Código base fornecido por Rossana Baptista Queiroz ([https://github.com/fellows
 > A velocidade de movimentação da câmera é controlada por uma variável (`cameraSpeed`) que pode ser ajustada para aumentar ou diminuir a velocidade de movimentação.
 
 ### Escala do Objeto:
-- `P` – Aumenta a escala do objeto.
-- `M` – Diminui a escala do objeto.
+- `=` – Aumenta a escala do objeto.
+- `-` – Diminui a escala do objeto.
 
 > A variação na escala é controlada por uma variável (`escalaSize`), que pode ser ajustada para aumentar ou diminuir a quantidade de aumento ou redução da escala do objeto.
 
